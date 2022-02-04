@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+
+}
+
+body{
+    background: white;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.incontainer{
+    background-color: #776274;
+    width: 30em;
+    height: 20em;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.incontainer input{
+    width: 33em;
+    height: 21em;
+    border-radius: 10px;
+}
+
+.outcontainer input{
+    width: 33em;
+    height: 21em;
+    border-radius: 10px;
+    
+}
+
+.buttons{
+    background-color: #A07178;
+    width: 5em;
+    height: 20em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.outcontainer{
+    background-color: #776274;
+    width: 30em;
+    height: 20em;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.colorcontainer{
+    background: #E6CCBE;
+    min-height: 95vh;
+    min-width: 98vw;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.principalcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style: none; /* Retira as bolinhas*/
+    display: flex;
+    padding: 0;
+}
+
+.titleclass{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 60px;
+    border-radius: 10px;
+    color: #A07178;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+.purpletext{
+    color: #776274;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.purpleicon{
+    color: #776274;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons p{
+    font-size: 20px;
+    background-color: #E6CCBE;
+    border-radius: 10px;
+    color: #776274;
+    font-family: 'Lobster', cursive;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.buttons :first-child{
+    margin-top: 3em;
+}
+
+.buttons p:hover,
+.buttons p:hover ~ .buttons p {
+    transform: scale(1.1);
+}
+
+input{
+    font-family: 'Lobster', cursive;
+    outline: none;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+::placeholder {
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+  }
