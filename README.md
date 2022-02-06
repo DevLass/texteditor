@@ -1,4 +1,9 @@
 # *Hey there, this is a simple text editor in which I have been working*
+
+<p align="center">
+  <img src="https://github.com/italicnich/texteditor/blob/main/readmeimg/rewriterpage.png" alt="Page Preview">
+</p>
+
 ### *Here, my greatest learning it was in the handling of containers*
 ### *I keep my hover animations simple*
 ### *And my next step is to implement the functions of:*
