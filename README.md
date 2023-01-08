@@ -4,7 +4,7 @@
   <img src="https://github.com/DevLass/texteditor/blob/main/readmeimg/rewriterpage.png" alt="Page Preview">
 </p>
 
-### *Here, my greatest learning it was in the handling of containers*
+#### *Here, my greatest learning it was in the handling of containers*
 #### *I keep my hover animations simple*
 #### *And my next step is to implement the functions of:*
 #### *- Lowercase to uppercase letters*
